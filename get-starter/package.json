@@ -1,0 +1,33 @@
+{
+  "name": "get-starter",
+  "version": "1.0.0",
+  "description": "A sample npm package",
+  "keywords": [
+    "npm",
+    "package",
+    "example"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manojpatra061/get-starter.git"
+  },
+  "author": "Manoj Patra <manojpatra061@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}

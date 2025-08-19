@@ -1,0 +1,16 @@
+{
+  "name": "testing-get-starter",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "u-i": "npm uninstall get-starter & npm i ../get-starter"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-starter": "file:../get-starter"
+  }
+}
